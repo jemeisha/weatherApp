@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    
+
+}
+ body{
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    
+} 
+
+.card{
+    border: transparent;
+    width:80%;
+    max-width: 500px;
+    max-height: 1000px;
+    /* background: rgb(34,193,195); */
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);    color: #fff;
+    opacity: 90%;
+    margin: 60px auto 0;
+    border-radius: 40px;
+    padding: 40px 35px;
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.search input{
+    border: 0;
+    background: #ebfffc;
+    opacity: 60%;
+    color: #554;
+    padding: 10px 20px;
+    height: 55px;
+    border-radius: 30px;
+    /* flex: 1; */
+    margin-right: 16px;
+    font-size: 16px;
+}
+.search button{
+    outline: 0;
+    border: 0;
+    background: #ebfffc; 
+    border-radius: 50%;
+    height: 50px;
+    width: 55px;
+    opacity: 60%;
+    cursor: -webkit-grab;
+
+}
+
+.search button img{
+    width: 16px;
+}
+.weather-img{
+    width: 170px;
+    margin-top: 30px;
+}
+.view{
+    color: #fff;
+}
+.view h1{
+    font-size:80px;
+    font-weight: 500;
+}
+
+.view h2{
+    font-size:45px;
+    font-weight:400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  10px;
+    margin-top: 40px;
+    
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 27px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+}
+
+/**/
+.otherdays{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding:  2px;
+    margin-top: 30px;
+    
+}
+
+.col-1{
+    /* display: flex; */
+    align-items: center;
+    margin-left: 25px;
+    
+
+}
+
+.col-1 img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.date{
+    font-size: 6px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.forecast{
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: -3px;
+    margin-left: -3px;
+}
